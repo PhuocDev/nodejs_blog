@@ -1,0 +1,30 @@
+{
+    "name": "first_project",
+    "version": "1.0.0",
+    "description": "first project follow by F8",
+    "main": "main.js",
+    "scripts": {
+        "start": "nodemon --inspect index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PhuocDev/nodejs_blog.git"
+    },
+    "keywords": [
+        "nodejs"
+    ],
+    "author": "PhuocDev",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/PhuocDev/nodejs_blog/issues"
+    },
+    "homepage": "https://github.com/PhuocDev/nodejs_blog#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "i": "^0.3.7",
+        "nodemon": "^2.0.13"
+    }
+}
